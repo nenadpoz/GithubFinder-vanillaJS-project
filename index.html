@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GitHub Finder</title>
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-dark bg-primary mb-3">
+		<div class="container">
+			<a class="navbar-brand" href="#">GitHub Finder</a>
+		</div>
+		<!-- /.container -->
+	</nav>
+	<!-- /.navbar navbar-dark bg-primary mb-3 -->
+
+	<div class="container searchContainer">
+		<div class="search card card-body">
+			<h1>Search GitHub Users</h1>
+			<p class="lead">Enter a username to fetch a user profile and repos</p>
+			<!-- /.lead -->
+			<input type="text" id="searchUser" class="form-control" placeholder="GitHub Username...">
+		</div>
+		<!-- /.search card card-body -->
+		<br>
+
+		<div id="alert"></div>
+		<!-- /#alert -->
+
+		<div id="profile"></div>
+		<!-- /#profile -->
+	</div>
+	<!-- /.container searchContainer -->
+
+	<footer class="mt-5 p-3 text-center bg-light">
+		GitHub Finder &copy;
+	</footer>
+	<!-- /.mt-5 p-3 text-center bg-light -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="github.js"></script>
+	<script type="text/javascript" src="ui.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
