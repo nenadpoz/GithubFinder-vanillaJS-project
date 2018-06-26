@@ -28,6 +28,9 @@ searchUser.addEventListener('keyup', (eventObj) => {
 				// Show profile
 				ui.showProfile(data.profile);
 
+				// Show repos
+				ui.showRepos(data.repos);
+
 				// Clear alert
 				ui.clearAlert();
 			}
